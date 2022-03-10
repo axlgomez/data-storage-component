@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Fylo data storage component</title>
+</head>
+<body>
+
+    <main class="fylo">
+
+        <div class="component">
+            <img class="component__logo" src="/images/logo.svg" alt="logo">
+
+            <div class="component__icons">
+                <img class="component__icon" src="/images/icon-document.svg" alt="icon-document">
+                <img class="component__icon" src="/images/icon-folder.svg" alt="icon-folder">
+                <img class="component__icon" src="/images/icon-upload.svg" alt="icon-upload">
+            </div>
+
+        </div>
+
+        <div class="storage">
+            <p class="storage__text">You’ve used <strong class="storage__strong">815 GB</strong> of your storage</p>
+
+            <div class="storage__slidecontainer">
+                <input type="range" min="1" max="100" value="75" disabled class="storage__slider" id="myRange">
+                <div class="storage__gb">
+                    <strong>0 GB</strong>
+                    <strong>1000 GB</strong>
+                </div>
+                <span class="storage__tooltip">
+                    185 <small class="storage__small">GB Left</small>
+                </span>
+            </div>
+        </div>
+
+    </main>
+
+
+    
+
+    
+</body>
+</html>
